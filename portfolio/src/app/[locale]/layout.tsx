@@ -2,14 +2,8 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
-import { Raleway } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header/Header";
-
-const raleway = Raleway({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
 interface RootLayoutProps {
   children: React.ReactNode;
@@ -25,11 +19,11 @@ export default async function RootLayout({
     notFound();
   }
 
-  const messages = await getMessages({locale});
-  
+  const messages = await getMessages({ locale });
+
   return (
     <html lang={locale}>
-      <body className={`${raleway.variable} antialiased bg-zinc-950`}>
+      <body className="font-raleway antialiased bg-zinc-950">
         <NextIntlClientProvider messages={messages}>
           <Header />
           {children}

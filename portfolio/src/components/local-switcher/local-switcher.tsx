@@ -23,7 +23,7 @@ export default function LocalSwitcher() {
   };
 
   return (
-    <div className="relative inline-block my-auto">
+    <div className="relative inline-block my-auto font-semibold">
       <label className="rounded flex items-center py-1 bg-zinc-950">
         <Image
           src={localActive === "pt-br" ? brazil : usa}

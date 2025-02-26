@@ -9,8 +9,10 @@
         "portuguese": "Portuguese",
         "english": "English"
     },
-    "Homepage": {
-        "title": "Welcome to my portfolio",
-        "description": "This is a simple portfolio to show my skills and projects"
+    "Hero": {
+        "title": "Hi there, I'm",
+        "description": "Student of Systems Analysis and Development at FIAP",
+        "downloadButton": "Download CV",
+        "archiveName": "Luiz Paulo CV"
     }
 }

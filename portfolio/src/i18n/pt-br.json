@@ -9,9 +9,11 @@
         "portuguese": "Português",
         "english": "Inglês"
     },
-    "Homepage": {
-        "title": "Bem-vindo ao meu portfólio",
-        "description": "Este é um portfólio simples para mostrar minhas habilidades e projetos"
+    "Hero": {
+        "title": "Olá, eu sou o",
+        "description": "Estudante de Análise e Desenvolvimento de Sistemas na FIAP",
+        "downloadButton": "Baixar Currículo",
+        "archiveName": "Currículo Luiz Paulo"
     }
     
 }
