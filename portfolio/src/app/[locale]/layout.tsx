@@ -29,7 +29,7 @@ export default async function RootLayout({
   
   return (
     <html lang={locale}>
-      <body className={`${raleway.variable} antialiased`}>
+      <body className={`${raleway.variable} antialiased bg-zinc-950`}>
         <NextIntlClientProvider messages={messages}>
           <Header />
           {children}

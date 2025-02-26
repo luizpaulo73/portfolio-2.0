@@ -1,6 +1,17 @@
 {
+    "Header": {
+        "home": "Início",
+        "projects": "Projetos",
+        "about" : "Sobre",
+        "contact": "Contato"
+    },
+    "LangSwitch": {
+        "portuguese": "Português",
+        "english": "Inglês"
+    },
     "Homepage": {
         "title": "Bem-vindo ao meu portfólio",
         "description": "Este é um portfólio simples para mostrar minhas habilidades e projetos"
     }
+    
 }

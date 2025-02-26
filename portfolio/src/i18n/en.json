@@ -1,4 +1,14 @@
 {
+    "Header": {
+        "home": "Home",
+        "projects": "Projects",
+        "about" : "About",
+        "contact": "Contact"
+    },
+    "LangSwitch": {
+        "portuguese": "Portuguese",
+        "english": "English"
+    },
     "Homepage": {
         "title": "Welcome to my portfolio",
         "description": "This is a simple portfolio to show my skills and projects"
