@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import "./globals.css";
 import Header from "@/components/Header/Header";
+import ParticlesComponent from "@/components/Particles/Particles";
 
 interface RootLayoutProps {
   children: React.ReactNode;
@@ -25,6 +26,7 @@ export default async function RootLayout({
     <html lang={locale}>
       <body className="font-raleway antialiased bg-zinc-950">
         <NextIntlClientProvider messages={messages}>
+          <ParticlesComponent id="particles" />
           <Header />
           {children}
         </NextIntlClientProvider>

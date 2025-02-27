@@ -10,6 +10,7 @@
         "english": "English"
     },
     "Hero": {
+        "local": "São Paulo, Brazil",
         "title": "Hi there, I'm",
         "description": "Student of Systems Analysis and Development at FIAP",
         "downloadButton": "Download CV",

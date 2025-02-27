@@ -3,17 +3,14 @@ import Link from "next/link";
 
 import download from "@/img/icons/download.png";
 import { useTranslations } from "next-intl";
-import ParticlesComponent from "../Particles/Particles";
-import "./Hero.css";
 
 export default function Hero() {
     const t = useTranslations("Hero");
 
   return (
-    <section className="h-screen w-screen flex items-center justify-center text-center">
-      <ParticlesComponent id="particles"/>
+    <section className="h-[100vh] relative flex items-center justify-center text-center">
       <div className="flex flex-col max-w-5xl gap-5 items-center z-10 bg-zinc-950 rounded-full">
-        <p className="text-stone-200 font-bold text-sm md:text-xl">📍 São Paulo, Brasil</p>
+        <p className="text-stone-200 font-bold text-sm md:text-xl">📍 {t("local")}</p>
         <h1 className="text-white text-4xl sm:text-6xl md:text-7xl font-bold flex flex-col">
           <span>{t("title")}{" "}</span>
           <span className="text-blue-500">{"<Luiz><Paulo />"}</span>

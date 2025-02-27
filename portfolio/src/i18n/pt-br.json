@@ -10,6 +10,7 @@
         "english": "Inglês"
     },
     "Hero": {
+        "local": "São Paulo, Brasil",
         "title": "Olá, eu sou o",
         "description": "Estudante de Análise e Desenvolvimento de Sistemas na FIAP",
         "downloadButton": "Baixar Currículo",
