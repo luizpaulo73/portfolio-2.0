@@ -11,7 +11,7 @@ export default function Projects() {
     const t = useTranslations("Projects");
 
   return (
-    <section className='bg-zinc-950 relative pt-10'>
+    <section className='bg-zinc-950 relative pt-10' id="projects">
         <div className="container mx-auto">
             <div className="mx-3 lg:mx-0 xl:max-w-5xl xl:mx-auto">
                 <h1 className='text-stone-200 font-bold text-2xl md:text-3xl xl:text-4xl my-4'>{t("title")}</h1>

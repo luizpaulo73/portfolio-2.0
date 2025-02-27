@@ -34,7 +34,7 @@ export default function LocalSwitcher() {
         />
         <select
           defaultValue={localActive}
-          className="bg-zinc-950 py-1 focus:outline-none"
+          className="bg-zinc-950 py-1 focus:outline-none cursor-pointer"
           onChange={onSelectChange}
           disabled={isPending}
         >

@@ -9,7 +9,7 @@ export default function Footer() {
   const t = useTranslations("Footer")
 
   return (
-    <footer className="z-10 relative bg-zinc-950 pt-20 flex flex-col items-center">
+    <footer className="z-10 relative bg-zinc-950 pt-20 flex flex-col items-center" id="contact">
         <div className="container border flex flex-col sm:flex-row sm:items-center gap-5 justify-between border-t-zinc-600 border-r-zinc-600 border-l-zinc-600 border-b-transparent py-4 px-2 sm:px-4 rounded-lg max-w-5xl">
             <div>
               <h1 className="text-stone-200 text-2xl font-bold">{t("contact")}</h1>
