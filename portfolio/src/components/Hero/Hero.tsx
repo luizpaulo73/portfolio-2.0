@@ -9,7 +9,7 @@ export default function Hero() {
 
   return (
     <section className="h-[100vh] relative flex items-center justify-center text-center">
-      <div className="flex flex-col max-w-5xl gap-5 items-center z-10 bg-zinc-950 rounded-full">
+      <div className="flex flex-col max-w-5xl gap-5 items-center z-10 rounded-full">
         <p className="text-stone-200 font-bold text-sm md:text-xl">📍 {t("local")}</p>
         <h1 className="text-white text-4xl sm:text-6xl md:text-7xl font-bold flex flex-col">
           <span>{t("title")}{" "}</span>

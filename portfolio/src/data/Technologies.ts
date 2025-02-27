@@ -1,11 +1,11 @@
-import git from "@/img/icons/git.png";
-import java from "@/img/icons/java.png";
-import next from "@/img/icons/next.png";
-import oracle from "@/img/icons/oracle.png";
-import python from "@/img/icons/python.png";
-import react from "@/img/icons/react.png";
-import tailwind from "@/img/icons/tailwind.png";
-import ts from "@/img/icons/ts.png";
+import git from "@/img/logos/git.png";
+import java from "@/img/logos/java.png";
+import next from "@/img/logos/next.png";
+import oracle from "@/img/logos/oracle.png";
+import python from "@/img/logos/python.png";
+import react from "@/img/logos/react.png";
+import tailwind from "@/img/logos/tailwind.png";
+import ts from "@/img/logos/ts.png";
 import { StaticImageData } from "next/image";
 
 type TypeTechnologies = {

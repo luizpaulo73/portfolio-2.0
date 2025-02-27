@@ -21,6 +21,10 @@
     },
     "Projects": {
         "title" : "Projetos"
+    },
+    "Footer": {
+        "rights": "Todos os direitos reservados",
+        "contact": "Contato"
     }
     
 }

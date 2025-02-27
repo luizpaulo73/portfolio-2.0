@@ -21,5 +21,9 @@
     },
     "Projects": {
         "title" : "Projects"
+    },
+    "Footer": {
+        "rights": "All rights reserved",
+        "contact": "Contact me"
     }
 }
