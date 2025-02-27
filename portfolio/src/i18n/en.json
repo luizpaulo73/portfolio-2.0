@@ -15,5 +15,11 @@
         "description": "Student of Systems Analysis and Development at FIAP",
         "downloadButton": "Download CV",
         "archiveName": "Luiz Paulo CV"
+    },
+    "Technologies" : {
+        "title": "Technologies"
+    },
+    "Projects": {
+        "title" : "Projects"
     }
 }

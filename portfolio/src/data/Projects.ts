@@ -18,6 +18,7 @@ type Tecnologia = {
 type TypeProjects = {
     id: number;
     name: string;
+    urlName: string;
     image: string | StaticImageData;
     descriptionPt: string;
     descriptionEn: string;
@@ -29,9 +30,10 @@ export const projects: TypeProjects[] = [
     {
         id: 1,
         name: "Verdí",
+        urlName: "verdi",
         image: verdi,
-        descriptionPt: "This is a description of project 1",
-        descriptionEn: "This is a description of project 1",
+        descriptionPt: "Site desenvolvido para o Trabalho semestral da FIAP",
+        descriptionEn: "Website developed for the FIAP semester project",
         technologies: [
             { name: "Next.js", image: next },
             { name: "TypeScript", image: ts },
@@ -44,9 +46,10 @@ export const projects: TypeProjects[] = [
     {
         id: 2,
         name: "PolipratiK",
+        urlName: "polipratik",
         image: polipratik,
-        descriptionPt: "This is a description of project 1",
-        descriptionEn: "This is a description of project 1",
+        descriptionPt: "Site desenvolvido para a empresa PolipratiK.",
+        descriptionEn: "Website developed for PolipratiK company.",
         technologies: [
             { name: "React", image: react },
             { name: "TypeScript", image: ts },

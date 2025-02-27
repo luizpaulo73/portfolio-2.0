@@ -15,6 +15,12 @@
         "description": "Estudante de Análise e Desenvolvimento de Sistemas na FIAP",
         "downloadButton": "Baixar Currículo",
         "archiveName": "Currículo Luiz Paulo"
+    },
+    "Technologies" : {
+        "title": "Tecnologias"
+    },
+    "Projects": {
+        "title" : "Projetos"
     }
     
 }
