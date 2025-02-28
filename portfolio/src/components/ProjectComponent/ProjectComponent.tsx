@@ -17,7 +17,7 @@ export default async function ProjectComponent(props: {project: string}) {
   return (
     <section className="relative z-10 overflow-x-hidden pt-28 flex flex-col items-center px-2 container mx-auto max-w-5xl">
       <div>
-        <h1 className="text-stone-200 text-[40px] text-center font-extrabold">{projectData.name}</h1>
+        <h1 className="text-stone-200 text-[40px] lg:text-6xl text-center font-extrabold md:mt-8">{projectData.name}</h1>
       </div>
         <div className="bg-[#1A1A1A] p-4 border border-zinc-600 rounded-lg mt-4 w-full flex flex-col items-center">
           <Link href={projectData.link} target="_blank">

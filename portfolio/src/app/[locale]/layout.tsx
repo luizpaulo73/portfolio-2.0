@@ -6,11 +6,19 @@ import "./globals.css";
 import Header from "@/components/Header/Header";
 import ParticlesComponent from "@/components/Particles/Particles";
 import Footer from "@/components/Footer/Footer";
+import { Metadata } from "next";
 
 interface RootLayoutProps {
   children: React.ReactNode;
   params: { locale: string };
 }
+
+export const metadata: Metadata = {
+  title: "Luiz Paulo - Portfolio",
+  icons: {
+    icon: "/favicon.ico"
+  }
+};
 
 export default async function RootLayout({
   children,

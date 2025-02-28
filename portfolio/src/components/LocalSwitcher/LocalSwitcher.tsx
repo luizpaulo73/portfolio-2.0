@@ -2,14 +2,13 @@
 
 import { ChangeEvent, useTransition } from "react";
 import { useRouter, usePathname } from "next/navigation";
-import { useLocale, useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 import Image from "next/image";
 
 import brazil from "@/img/flags/brazil.jpg";
 import usa from "@/img/flags/usa.png";
 
 export default function LocaleSwitcher() {
-  const t = useTranslations("LangSwitch");
 
   const [isPending, startTransition] = useTransition();
   const router = useRouter();
@@ -43,8 +42,8 @@ export default function LocaleSwitcher() {
           onChange={onSelectChange}
           disabled={isPending}
         >
-          <option value="pt-br">{t("portuguese")}</option>
-          <option value="en">{t("english")}</option>
+          <option value="pt-br">Português</option>
+          <option value="en">English</option>
         </select>
       </label>
     </div>

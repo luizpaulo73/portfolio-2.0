@@ -5,10 +5,6 @@
         "about" : "About",
         "contact": "Contact"
     },
-    "LangSwitch": {
-        "portuguese": "Portuguese",
-        "english": "English"
-    },
     "Hero": {
         "local": "São Paulo, Brazil",
         "title": "Hi there, I'm",

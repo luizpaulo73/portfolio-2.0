@@ -5,10 +5,6 @@
         "about" : "Sobre",
         "contact": "Contato"
     },
-    "LangSwitch": {
-        "portuguese": "Português",
-        "english": "Inglês"
-    },
     "Hero": {
         "local": "São Paulo, Brasil",
         "title": "Olá, eu sou o",
