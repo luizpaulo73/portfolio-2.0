@@ -1,6 +1,5 @@
 import { StaticImageData } from "next/image";
 
-import java from "@/img/logos/java.png";
 import next from "@/img/logos/next.png";
 import oracle from "@/img/logos/oracle.png";
 import python from "@/img/logos/python.png";
