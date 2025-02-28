@@ -59,8 +59,8 @@ export const projects: TypeProjects[] = [
         pcImage: polipratikPc,
         descriptionPt: "Site desenvolvido para a empresa PolipratiK.",
         descriptionEn: "Website developed for PolipratiK company.",
-        longDescPt: "A PolipratiK oferece soluções leves e resistentes para portões e grades, integrando segurança, privacidade e estética. A empresa já realizou mais de 1.200 instalações na Grande São Paulo.",
-        longDescEn: "PolipratiK provides lightweight and durable solutions for gates and grilles, combining security, privacy, and aesthetics. The company has completed over 1,200 installations in the Greater São Paulo area.",
+        longDescPt: "A PolipratiK oferece soluções leves e resistentes para portões e grades, unindo segurança, privacidade e estética. Com mais de 1.200 instalações na Grande São Paulo, se destaca pela inovação em revestimentos de polímero alveolar. Fui responsável pelo desenvolvimento do site oficial, criando uma plataforma moderna e funcional.",
+        longDescEn: "PolipratiK offers lightweight and durable solutions for gates and fences, combining security, privacy, and aesthetics. With over 1,200 installations in Greater São Paulo, it stands out for its innovation in alveolar polymer coverings. I was responsible for developing the official website, creating a modern and functional platform.",
         technologies: [
             { name: "React", image: react },
             { name: "TypeScript", image: ts },
