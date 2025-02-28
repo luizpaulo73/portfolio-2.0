@@ -1,24 +1,29 @@
 "use client";
 
 import { ChangeEvent, useTransition } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 
 import brazil from "@/img/flags/brazil.jpg";
 import usa from "@/img/flags/usa.png";
 
-export default function LocalSwitcher() {
+export default function LocaleSwitcher() {
   const t = useTranslations("LangSwitch");
 
   const [isPending, startTransition] = useTransition();
   const router = useRouter();
+  const pathname = usePathname(); // Obtém a URL atual sem `asPath`
   const localActive = useLocale();
 
   const onSelectChange = (e: ChangeEvent<HTMLSelectElement>) => {
     const nextLocale = e.target.value;
+
+    // Troca apenas o idioma na URL, mantendo o restante do caminho
+    const newPath = `/${nextLocale}${pathname.replace(/^\/(en|pt-br)/, "")}`;
+
     startTransition(() => {
-      router.replace(`/${nextLocale}`);
+      router.replace(newPath);
     });
   };
 
@@ -45,4 +50,3 @@ export default function LocalSwitcher() {
     </div>
   );
 }
-

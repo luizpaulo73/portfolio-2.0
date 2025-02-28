@@ -1,7 +1,13 @@
-import React from 'react'
+import ProjectComponent from '@/components/ProjectComponent/ProjectComponent';
 
-export default function ProjectPage() {
-  return (
-    <div>page</div>
+export default async function ProjectPage({ params }: { params: Promise<{ project: string }> }) {
+  
+  const project = (await params).project;
+  
+  
+    return (
+    <main className="z-10">
+      <ProjectComponent project={project} />
+    </main>
   )
 }

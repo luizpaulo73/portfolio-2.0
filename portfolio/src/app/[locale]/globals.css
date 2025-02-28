@@ -11,13 +11,13 @@ html {
 ::-webkit-scrollbar {
     width: 7px;
 }
-  
+    
 ::-webkit-scrollbar-thumb {
     background-color: #3B82F6;
     border-radius: 7px;
 }
 
-.particles canvas {
+#particles canvas {
     z-index: 0;
     height: 100%;
     width: 100%;

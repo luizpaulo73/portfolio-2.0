@@ -23,7 +23,7 @@ export default function Projects() {
                             <p className="text-stone-200/70 text-left w-full text-sm md:text-base">{locale == 'en' ? info.descriptionEn : info.descriptionPt}</p>
                             <div className="grid grid-cols-3 sm:grid-cols-5 w-full gap-4 mt-4 border-t border-t-zinc-600 pt-4">
                                 {info.technologies.map((tech, index) => (
-                                    <div key={index} className="flex flex-col items-center justify-center gap-1 bg-zinc-950 
+                                    <div key={index} className="flex flex-col items-center justify-center gap-1 
                                     py-2 rounded-lg">
                                         <Image src={tech.image} alt={tech.name} className="w-8 md:w-12 lg:w-11"/>
                                         <p className="text-stone-200 text-xs md:text-sm">{tech.name}</p>

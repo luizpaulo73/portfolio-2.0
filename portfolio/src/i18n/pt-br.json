@@ -25,6 +25,10 @@
     "Footer": {
         "rights": "Todos os direitos reservados",
         "contact": "Contato"
+    },
+    "ProjectPage": {
+        "title": "Sobre o Projeto",
+        "link": "Link do Projeto"
     }
     
 }

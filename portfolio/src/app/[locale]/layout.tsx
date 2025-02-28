@@ -27,7 +27,7 @@ export default async function RootLayout({
     <html lang={locale}>
       <body className="font-raleway antialiased bg-zinc-950">
         <NextIntlClientProvider messages={messages}>
-          <ParticlesComponent className="particles" />
+          <ParticlesComponent id="particles" />
           <Header />
           {children}
         </NextIntlClientProvider>
