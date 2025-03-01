@@ -1,4 +1,5 @@
 /* eslint-disable */
+
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -16,6 +17,7 @@ interface RootLayoutProps {
 
 export const metadata: Metadata = {
   title: "Luiz Paulo - Portfolio",
+  description: "Desenvolvedor Full Stack com experiência em Next.js, React, TypeScript, Java, Python e SQL. Portfólio com projetos modernos, interfaces responsivas e foco em desempenho. Confira meus trabalhos!",
   icons: {
     icon: "/favicon.ico"
   }

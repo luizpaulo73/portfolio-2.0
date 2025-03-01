@@ -27,6 +27,26 @@ const ParticlesComponent = (props) => {
     });
   }, []);
 
+  const [particleNumber, setParticleNumber] = useState(getParticleNumber());
+
+  function getParticleNumber() {
+    return window.innerWidth < 768 ? 6 : 10;
+}
+
+// Hook para atualizar o número de partículas quando a tela for redimensionada
+  useEffect(() => {
+      function handleResize() {
+          setParticleNumber(getParticleNumber());
+      }
+
+      window.addEventListener("resize", handleResize);
+
+      // Limpa o event listener quando o componente for desmontado
+      return () => {
+          window.removeEventListener("resize", handleResize);
+      };
+  }, []);
+
   const particlesLoaded = (container) => {
     console.log(container);
   };
@@ -39,7 +59,7 @@ const ParticlesComponent = (props) => {
           value: "#09090b",
         },
       },
-      fpsLimit: 120,
+      fpsLimit: 60,
       interactivity: {
         events: {
           onClick: {
@@ -86,7 +106,7 @@ const ParticlesComponent = (props) => {
           density: {
             enable: true,
           },
-          value: 100,
+          value: 50,
         },
         opacity: {
           value: 1.0,
