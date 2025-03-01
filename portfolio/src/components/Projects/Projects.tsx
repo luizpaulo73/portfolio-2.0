@@ -4,7 +4,7 @@ import { projects } from "@/data/Projects";
 import Image from "next/image";
 import Link from "next/link";
 
-import externalLink from "@/img/icons/external-link.png";
+import externalLink from "@/img/icons/external-link.webp";
 import { useLocale, useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
 

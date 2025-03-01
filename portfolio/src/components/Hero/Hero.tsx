@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import download from "@/img/icons/download.png";
+import download from "@/img/icons/download.webp";
 import { useTranslations } from "next-intl";
 
 export default function Hero() {

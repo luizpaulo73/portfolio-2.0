@@ -1,8 +1,8 @@
 import { StaticImageData } from "next/image";
 
-import linkedin from "@/img/logos/linkedin.png";
-import github from "@/img/logos/github.png";
-import email from "@/img/logos/email.png";
+import linkedin from "@/img/logos/linkedin.webp";
+import github from "@/img/logos/github.webp";
+import email from "@/img/logos/email.webp";
 
 type TypeContact = {
     id: number;

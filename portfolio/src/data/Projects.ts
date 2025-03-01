@@ -1,15 +1,15 @@
 import { StaticImageData } from "next/image";
 
-import next from "@/img/logos/next.png";
-import oracle from "@/img/logos/oracle.png";
-import python from "@/img/logos/python.png";
-import react from "@/img/logos/react.png";
-import tailwind from "@/img/logos/tailwind.png";
-import ts from "@/img/logos/ts.png";
-import polipratik from "@/img/projects/polipratik.png";
-import verdi from "@/img/projects/verdi.png";
-import polipratikPc from "@/img/projects/polipratik-pc.png";
-import verdiPc from "@/img/projects/verdi-pc.png";
+import next from "@/img/logos/next.webp";
+import oracle from "@/img/logos/oracle.webp";
+import python from "@/img/logos/python.webp";
+import react from "@/img/logos/react.webp";
+import tailwind from "@/img/logos/tailwind.webp";
+import ts from "@/img/logos/ts.webp";
+import polipratik from "@/img/projects/polipratik.webp";
+import verdi from "@/img/projects/verdi.webp";
+import polipratikPc from "@/img/projects/polipratik-pc.webp";
+import verdiPc from "@/img/projects/verdi-pc.webp";
 
 type Technology = {
     name: string;

@@ -5,8 +5,8 @@ import { useRouter, usePathname } from "next/navigation";
 import { useLocale } from "next-intl";
 import Image from "next/image";
 
-import brazil from "@/img/flags/brazil.jpg";
-import usa from "@/img/flags/usa.png";
+import brazil from "@/img/flags/brazil.webp";
+import usa from "@/img/flags/usa.webp";
 
 export default function LocaleSwitcher() {
 
