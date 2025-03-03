@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "Luiz Paulo - Portfolio",
   description: "Desenvolvedor Full Stack com experiência em Next.js, React, TypeScript, Java, Python e SQL. Portfólio com projetos modernos, interfaces responsivas e foco em desempenho. Confira meus trabalhos!",
   icons: {
-    icon: "/favicon.ico"
+    icon: "/favicon.webp"
   }
 };
 
