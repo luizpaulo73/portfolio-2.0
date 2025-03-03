@@ -31,7 +31,7 @@ export default function LocaleSwitcher() {
       <label className="rounded flex items-center py-1 bg-zinc-950">
         <Image
           src={localActive === "pt-br" ? brazil : usa}
-          alt="Bandeira"
+          alt={localActive === "pt-br" ? "Lingua portuguesa" : "Lingua inglesa"}
           width={24}
           height={16}
           className="rounded mr-2"

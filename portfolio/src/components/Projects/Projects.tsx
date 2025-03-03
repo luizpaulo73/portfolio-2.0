@@ -18,7 +18,7 @@ export default function Projects() {
     <section className='bg-zinc-950 relative pt-10' id="projects">
         <div className="container mx-auto">
             <div className="mx-3 lg:mx-0 xl:max-w-5xl xl:mx-auto">
-                <h1 className='text-stone-200 font-bold text-2xl md:text-3xl xl:text-4xl my-4'>{t("title")}</h1>
+                <h2 className='text-stone-200 font-bold text-2xl md:text-3xl xl:text-4xl my-4'>{t("title")}</h2>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:gap-5">
                     {projects.map((info) => (
                         <div onClick={() => (router.push(`/${locale}/project/${info.urlName}`))} key={info.id} className="mx-auto bg-[#1A1A1A] flex flex-col items-center w-full p-4 rounded-lg border border-zinc-600 hover:border-blue-500 duration-300 cursor-pointer">
