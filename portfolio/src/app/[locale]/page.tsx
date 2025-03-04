@@ -4,7 +4,7 @@ import Technologies from "@/components/Technologies/Technologies";
 
 export default function HomePage() {
   return (
-    <main className="z-10">
+    <main>
       <Hero />
       <Technologies />
       <Projects />

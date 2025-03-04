@@ -6,7 +6,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ projec
   
   
     return (
-    <main className="z-10">
+    <main>
       <ProjectComponent project={project} />
     </main>
   )
