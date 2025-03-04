@@ -21,7 +21,7 @@ export default function Projects() {
                 <h2 className='text-stone-200 font-bold text-2xl md:text-3xl xl:text-4xl my-4'>{t("title")}</h2>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:gap-5">
                     {projects.map((info) => (
-                        <div onClick={() => (router.push(`/${locale}/project/${info.urlName}`))} key={info.id} className="mx-auto bg-[#1A1A1A] flex flex-col items-center w-full p-4 rounded-lg border border-zinc-600 hover:border-blue-500 duration-300 cursor-pointer">
+                        <div onClick={() => (router.push(`/${locale}/project/${info.urlName}`))} key={info.id} className="mx-auto bg-[#1A1A1A] flex flex-col justify-around items-center w-full p-4 rounded-lg border border-zinc-600 hover:border-blue-500 duration-300 cursor-pointer">
                             <Image src={info.image} alt={info.name} className="w-11/12 max-w-72 mb-4"/>
                             <Link href={`/${locale}/project/${info.urlName}`} className='text-stone-200 text-left w-full font-bold text-lg md:text-2xl flex gap-2 items-center'><p>{info.name}</p><Image src={externalLink} alt="Link" className="h-4 md:h-5 w-auto"/></Link>
                             <p className="text-stone-200/70 text-left w-full text-sm md:text-base">{locale == 'en' ? info.descriptionEn : info.descriptionPt}</p>
