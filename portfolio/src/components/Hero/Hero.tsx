@@ -2,10 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 import download from "@/img/icons/download.webp";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 export default function Hero() {
     const t = useTranslations("Hero");
+    const localActive = useLocale();
 
   return (
     <section className="h-[100vh] relative flex items-center justify-center text-center">
@@ -21,7 +22,7 @@ export default function Hero() {
                 <li><Link href="https://www.linkedin.com/in/luizpaulo73/" target="_blank" className="bg-zinc-800 p-2 rounded-lg hover:bg-zinc-700 duration-300 text-sm sm:text-base">LinkedIn</Link></li>
                 <li><Link href="https://github.com/luizpaulo73" target="_blank" className="bg-zinc-800 p-2 rounded-lg hover:bg-zinc-700 duration-300 text-sm sm:text-base">GitHub</Link></li>
                 <li>
-                    <a href="/docs/cv.pdf" download={t("archiveName")} className="flex items-center gap-1 sm:gap-2 hover:scale-105 duration-300 text-sm sm:text-base">
+                    <a href={localActive === "pt-br" ? "/docs/cv.pdf" : "/docs/cv-en.pdf"} download={t("archiveName")} className="flex items-center gap-1 sm:gap-2 hover:scale-105 duration-300 text-sm sm:text-base">
                         <Image src={download} alt="Download CV" className="w-6 sm:w-8"/><p>{t("downloadButton")}</p>
                     </a>
                 </li>
