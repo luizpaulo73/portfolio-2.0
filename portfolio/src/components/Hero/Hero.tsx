@@ -23,7 +23,7 @@ export default function Hero() {
                 <li><Link href="https://github.com/luizpaulo73" target="_blank" className="bg-zinc-800 p-2 rounded-lg hover:bg-zinc-700 duration-300 text-sm sm:text-base">GitHub</Link></li>
                 <li>
                     <a href={localActive === "pt-br" ? "/docs/cv.pdf" : "/docs/cv-en.pdf"} download={t("archiveName")} className="flex items-center gap-1 sm:gap-2 hover:scale-105 duration-300 text-sm sm:text-base">
-                        <Image src={download} alt="Download CV" className="w-6 sm:w-8"/><p>{t("downloadButton")}</p>
+                        <Image src={download} alt="Download Luiz Paulo's CV" className="w-6 sm:w-8"/><p>{t("downloadButton")}</p>
                     </a>
                 </li>
             </ul>
