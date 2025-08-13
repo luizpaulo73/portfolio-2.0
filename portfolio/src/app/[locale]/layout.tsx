@@ -9,6 +9,7 @@ import Header from "@/components/Header/Header";
 import ParticlesComponent from "@/components/Particles/Particles";
 import Footer from "@/components/Footer/Footer";
 import { Metadata } from "next";
+import { Raleway } from 'next/font/google';
 
 interface RootLayoutProps {
   children: React.ReactNode;
@@ -23,6 +24,12 @@ export const metadata: Metadata = {
   }
 };
 
+const raleway = Raleway({
+  subsets: ['latin'],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  style: ['normal', 'italic'],
+});
+
 export default async function RootLayout({
   children,
   params,
@@ -36,7 +43,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
-      <body className="font-raleway antialiased bg-zinc-950">
+      <body className={`${raleway.className} antialiased bg-zinc-950`}>
         <NextIntlClientProvider messages={messages}>
           <ParticlesComponent id="particles" />
           <Header />
