@@ -16,7 +16,7 @@ export default function Footer() {
               <div className="flex flex-col gap-5 mt-5">
                 {contacts.map((info) => (
                   <Link href={info.link} key={info.id} className="flex items-center gap-2 ">
-                    <Image src={info.image} alt={info.name} className="w-7 h-auto"/>
+                    <Image src={info.image} alt={info.alt} className="w-7 h-auto"/>
                     <h2 className="text-stone-200 text-sm font-semibold hover:text-blue-500 duration-300">{info.name}</h2>
                   </Link>
                 ))}
